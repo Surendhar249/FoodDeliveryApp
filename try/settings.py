@@ -25,7 +25,7 @@ SECRET_KEY = '(n)g8+rai5-cr0a@$q%b4ji!dx5zw79hsp_&b)mv#*j7(n&%d3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['foodsea.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
