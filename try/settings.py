@@ -127,5 +127,9 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, "static"),
+    'C:/Users/admin/Desktop/try/myapp/static',
+    'C:/Users/admin/Desktop/try/menu/static',
+    'myapp/static/myapp',
+    'menu/static/menu',
 ]
