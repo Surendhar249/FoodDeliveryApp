@@ -25,11 +25,7 @@ SECRET_KEY = '(n)g8+rai5-cr0a@$q%b4ji!dx5zw79hsp_&b)mv#*j7(n&%d3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['food-delivery-app-vit.herokuapp.com']
-=======
-ALLOWED_HOSTS = ['http://surendhar.pythonanywhere.com']
->>>>>>> 2eaf07670ae83fa2d8710a973dd6b83e47a3114e
 
 
 # Application definition
