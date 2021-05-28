@@ -25,7 +25,7 @@ SECRET_KEY = '(n)g8+rai5-cr0a@$q%b4ji!dx5zw79hsp_&b)mv#*j7(n&%d3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['food-delivery-app-vit.herokuapp.com']
+ALLOWED_HOSTS = ['food-delivery-app-vit.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'try.urls'
@@ -123,9 +124,5 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-    'C:/Users/admin/Desktop/try/myapp/static',
-    'C:/Users/admin/Desktop/try/menu/static',
-    'myapp/static/myapp',
-    'menu/static/menu',
+    os.path.join(BASE_DIR, 'static'),
 ]
